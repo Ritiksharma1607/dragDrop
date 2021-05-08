@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: darkslateblue;
+            display: flex;
+
+        }
+
+        .hold{
+            border: 3px solid black;
+        }
+
+        .hide{
+            display: none;
+        }
+
+        .whiteBox {
+            background-color: white;
+            width: 145px;
+            height: 145px;
+            margin: 9px;
+            border-radius: 9px;
+        }
+
+        .imgBox {
+            background-image: url('Chrysanthemum.jpg');
+            height: 135px;
+            width: 135px;
+            position: relative;
+            left: 4px;
+            top: 4px;
+            cursor: grabbing;
+            box-sizing: border-box;
+        }
+
+        .dashed{
+            background-color: grey;
+            border-style: dashed;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="whiteBox">
+        <div class="imgBox" draggable="true"></div>
+    </div>
+    <div class="whiteBox">
+
+    </div>
+    <div class="whiteBox">
+
+    </div>
+    <div class="whiteBox">
+
+    </div>
+
+
+
+    <script type="text/javascript" src="dragDrop.js" charset="utf-8"></script>
+
+</body>
+
+</html>
